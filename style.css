@@ -1,77 +1,74 @@
 body {
-    background-color: #232323;
-    margin: 0 auto;
-    font-family: 'Montserrat', 'Avenir';
-}
-
-#container {
-    margin: 0 auto;
-    max-width: 600px;
-}
-
-#stripe {
-    background: #FFF;
-    height: 30px;
-    text-align: center;
-    color: #000;
-}
-#colorDisplay {
-    font-size: 200%;
-}
-
-#message {
-    display: inline-block;
-    width: 20%;
-    text-transform: uppercase;
-    color: steelblue;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: inherit;
-}
-
-h1 {
-    color: #FFF;
-    text-align: center;
-    background: steelblue;
-    margin: 0;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 1.2;
-    padding: 20px 0;
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
 }
 
 .square {
-    width: 30%;
-    background: purple;
-    margin: 1.66%;
-    padding-bottom: 30%;
-    float: left;
-    border-radius: 20px;
-    transition: background 0.6s;
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
 }
 
-span {
-    color: #FFF;
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
 }
 
 .selected {
-    background: steelblue;
-    color: #FFF;
+	color: white;
+	background: steelblue;
 }
 
 button {
-    border: none;
-    background: none;
-    text-transform: uppercase;
-    color: steelblue;
-    height: 100%;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: inherit;
-    outline: none;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
 }
 
 button:hover {
-    color: #FFF;
-    background: steelblue;
+	color: white;
+	background: steelblue;
 }
