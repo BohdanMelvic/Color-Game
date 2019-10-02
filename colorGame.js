@@ -36,10 +36,7 @@ function setupSquares(){
 			//grab color of clicked square
 			var clickedColor = this.style.background;
 			//compare color to pickedColor
-			console.log(clickedColor);
-			console.log(pickedColor);
-			console.log(colors);
-			if(clickedColor === pickedColor){
+			if(clickedColor.includes(pickedColor)){
 				messageDisplay.textContent = "Correct!";
 				resetButton.textContent = "Play Again?"
 				changeColors(clickedColor);
